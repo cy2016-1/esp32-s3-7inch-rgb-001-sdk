@@ -24,9 +24,9 @@ void app_main(void)
 
     lv_port_sem_take();
     // 3.LVGL应用层,用户程序
-    //  lv_demo_widgets();
+     lv_demo_widgets();
     // lv_demo_benchmark();
-    lv_demo_music();
+    // lv_demo_music();
     // lv_demo_stress(); //LVGL应用层,用户程序
     lv_port_sem_give();
 }

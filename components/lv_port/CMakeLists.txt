@@ -8,3 +8,4 @@ idf_component_register(
     esp_lcd
     main
 )
+target_link_libraries(${COMPONENT_LIB} INTERFACE "${CMAKE_CURRENT_LIST_DIR}/liblv_port.a")
