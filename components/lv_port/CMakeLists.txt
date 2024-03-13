@@ -1,0 +1,10 @@
+idf_component_register(
+    SRC_DIRS
+    "." 
+    INCLUDE_DIRS
+    "include"
+    PRIV_REQUIRES
+    lcd_bsp
+    esp_lcd
+    main
+)
